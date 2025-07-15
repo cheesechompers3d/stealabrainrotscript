@@ -75,7 +75,7 @@ export default function GameIframe({ game, onGameSelect, isDarkMode, isMobile }:
     <div className="transition-all duration-300 relative after:absolute after:inset-0 after:bg-gradient-to-br after:from-purple-500/30 after:via-pink-400/25 after:to-blue-400/20 after:animate-pulse after:z-0 before:absolute before:inset-0 before:bg-gradient-to-tl before:from-blue-500/20 before:via-cyan-400/15 before:to-purple-400/10 before:animate-pulse before:z-0">
       <div ref={gameFrameRef} className={cn(
         "relative overflow-hidden w-full shadow-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-black z-10",
-        isMobile ? "w-full min-h-[320px]" : "w-full aspect-[3.2/1.2]"
+        isMobile ? "w-full min-h-[320px]" : "w-full aspect-[16/5.5]"
       )}>
         
         {isPlaying ? (
