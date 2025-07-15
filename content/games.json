@@ -1,0 +1,35 @@
+{
+  "defaultGame": "steal-a-brainrot",
+  "games": [
+    {
+      "slug": "steal-a-brainrot",
+      "title": "Steal a Brainrot Script",
+      "description": "Experience Steal a Brainrot Script, a thrilling and fast-paced game where players compete to steal 'Brainrot' from each other while protecting their own. With chaotic gameplay, hilarious moments, and intense competition, Steal a Brainrot Script has become a favorite among gamers worldwide!",
+      "icon": "/images/hot_game/steal-a-brainrot.png",
+      "url": "https://www.roblox.com/games/109983668079237/Steal-a-Brainrot",
+      "previewImage": "/images/hot_game/steal-a-brainrot.png",
+      "type": "action",
+      "seo": {
+        "title": "Steal a Brainrot Script - Fast-Paced Competitive Game Online",
+        "description": "Play Steal a Brainrot Script! Compete to steal Brainrot from others while protecting your own. Enjoy chaotic, hilarious, and intense gameplay now!",
+        "keywords": "Steal a Brainrot Script, competitive, action, fast-paced, online, multiplayer",
+        "ogImage": "/images/hot_game/steal-a-brainrot.png"
+      }
+    },
+    {
+      "slug": "grow-a-garden-script",
+      "title": "Grow a Garden Script",
+      "description": "Grow a Garden Script is a highly popular Roblox farming automation script that supports auto planting, auto collecting, auto buying, auto selling, and infinite seeds. With Grow a Garden Script, players can easily boost farm efficiency, unlock advanced features, and enjoy smart farming.",
+      "icon": "/images/hot_game/grow-a-garden-script.png",
+      "url": "https://www.roblox.com/games/126884695634066/Grow-a-Garden",
+      "previewImage": "/images/hot_game/grow-a-garden-script.png",
+      "type": "action",
+      "seo": {
+        "title": "Grow a Garden Script - Automated Farming Script for Roblox",
+        "description": "Try Grow a Garden Script! Automate planting, collecting, selling, and get infinite seeds. Boost your farm and enjoy one of the most popular Roblox farming games!",
+        "keywords": "Grow a Garden Script, auto plant, auto collect, auto sell, Roblox, farming, automation, no key, script collection, trending game",
+        "ogImage": "/images/hot_game/grow-a-garden-script.png"
+      }
+    }
+  ]
+} 
