@@ -14,6 +14,8 @@ interface NavbarProps {
   isMobile?: boolean
   onShowGameList?: () => void
   onNavigateHome?: () => void
+  onToggleTheme?: () => void
+  isDarkMode?: boolean
 }
 
 const navItems = [
@@ -32,7 +34,9 @@ export default function Navbar({
   currentGameTitle,
   isMobile,
   onShowGameList,
-  onNavigateHome
+  onNavigateHome,
+  onToggleTheme,
+  isDarkMode
 }: NavbarProps) {
   const router = useRouter()
   const pathname = usePathname()
