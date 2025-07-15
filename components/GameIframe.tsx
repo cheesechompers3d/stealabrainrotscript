@@ -154,9 +154,11 @@ export default function GameIframe({ game, onGameSelect, isDarkMode, isMobile }:
                 isMobile ? "py-4 max-w-full w-[96vw] px-1 overflow-auto" : "py-16 max-w-4xl w-full px-0"
               )}>
                 <h1 className={cn(
-                  "font-bold mb-1",
-                  isMobile ? "text-white text-lg" : "text-white text-5xl"
-                )}><span role="img" aria-label="game">🎮</span> {game.title}</h1>
+                  "font-bold mb-1 text-5xl drop-shadow-lg",
+                  isMobile ? "text-lg" : "text-5xl"
+                )}>
+                  <span role="img" aria-label="game">🎮</span> <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600">{game.title}</span>
+                </h1>
                 <div className={cn(
                   "font-semibold mb-1",
                   isMobile ? "text-green-500 text-sm" : "text-green-500 text-2xl"

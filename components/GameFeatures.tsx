@@ -89,7 +89,7 @@ export default function GameFeatures({ features }: GameFeaturesProps) {
             </div>
             {/* 右侧内容 */}
             <div className="lg:w-2/3">
-              <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 to-purple-200"><span role="img" aria-label="features" className="text-yellow-400 align-middle">✨</span> {features?.title}</h2>
+              <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400"><span role="img" aria-label="features" className="text-yellow-400 align-middle">✨</span> {features?.title}</h2>
               <div className="grid gap-4">
                 {features?.items.map((feature, index) => {
                   const { title, description } = parseFeatureItem(feature)
@@ -101,7 +101,7 @@ export default function GameFeatures({ features }: GameFeaturesProps) {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold text-indigo-200 mb-1">{title}</h3>
+                        <h3 className="text-xl font-semibold text-indigo-300 mb-1">{title}</h3>
                         {description && (
                           <p className="text-indigo-300/80">{description}</p>
                         )}

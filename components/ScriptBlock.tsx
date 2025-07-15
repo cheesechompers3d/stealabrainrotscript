@@ -26,7 +26,7 @@ export default function ScriptBlock({ title, description, items }: ScriptBlockPr
 
   return (
     <div className="w-full bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-2xl p-8 mb-8 shadow-lg border border-gray-200 dark:border-gray-800">
-      <h2 className="text-3xl font-extrabold mb-2 text-purple-700 dark:text-purple-300 drop-shadow"><span role="img" aria-label="script">💻</span> {title}</h2>
+      <h2 className="text-3xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 drop-shadow"><span role="img" aria-label="script">💻</span> {title}</h2>
       {description && <p className="text-base mb-6 text-gray-500 dark:text-gray-400">{description}</p>}
       <div className="space-y-6">
         {items.map((item, index) => (

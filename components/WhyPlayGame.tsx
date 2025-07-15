@@ -50,7 +50,7 @@ export default function WhyPlayGame({ reasons }: WhyPlayGameProps) {
   return (
     <div className="mt-8">
       <div className="bg-gradient-to-br from-violet-900 to-purple-900 rounded-xl p-8 shadow-xl">
-        <h2 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-violet-200 to-purple-200"><span role="img" aria-label="whyplay" className="text-yellow-400 align-middle">🤔</span> {reasons.title}</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400"><span role="img" aria-label="whyplay" className="text-yellow-400 align-middle">🤔</span> {reasons.title}</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {reasons.items.map((reason, index) => {
             const { title, description } = parseReasonItem(reason)
@@ -60,12 +60,12 @@ export default function WhyPlayGame({ reasons }: WhyPlayGameProps) {
                 className="relative group"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-violet-400/10 to-purple-400/10 rounded-xl transform transition-transform group-hover:scale-105" />
-                <div className="relative p-6 backdrop-blur-sm">
-                  <div className="flex items-center gap-4 mb-3">
-                    <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-violet-400 to-purple-400 flex items-center justify-center text-white font-bold">
+                <div className="relative p-6 backdrop-blur-sm flex flex-col items-center">
+                  <div className="flex flex-col items-center mb-3">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-violet-400 to-purple-400 flex items-center justify-center text-white font-bold mb-2">
                       {index + 1}
                     </div>
-                    <h3 className="text-lg font-semibold text-violet-200">{title}</h3>
+                    <h3 className="text-lg font-semibold text-yellow-400 text-center">{title}</h3>
                   </div>
                   {description && (
                     <p className="text-violet-300/90 ml-12">{description}</p>

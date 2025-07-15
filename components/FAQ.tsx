@@ -34,14 +34,14 @@ export default function FAQ({ faq }: FAQProps) {
 
   return (
     <div className="mt-8 bg-gray-900 rounded-xl p-8">
-      <h2 className="text-3xl font-bold mb-8 text-center text-white"><span role="img" aria-label="faq">❓</span> {faq.title}</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center text-pink-400"><span role="img" aria-label="faq">❓</span> {faq.title}</h2>
       <div className="space-y-4">
         {faq.items.map((item, index) => (
           <div
             key={index}
             className="rounded-lg p-6 bg-gray-800/50"
           >
-            <h3 className={`text-lg font-semibold mb-3 ${questionColors[index]}`}>
+            <h3 className={`text-lg font-semibold mb-3 text-blue-400`}>
               {item.question}
             </h3>
             <p className="text-white leading-relaxed">

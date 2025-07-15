@@ -43,7 +43,7 @@ const renderItems = (items: TOCItem[], level = 0) => (
 
 const TableOfContentsSection: React.FC<TableOfContentsSectionProps> = ({ title, items }) => (
   <section className="bg-white rounded-lg p-6 mb-8 shadow-lg border border-green-200">
-    <h2 className="text-xl md:text-2xl font-bold mb-4 text-green-700"><span role="img" aria-label="toc">📑</span> {title}</h2>
+    <h2 className="text-xl md:text-2xl font-bold mb-4 text-green-500"><span role="img" aria-label="toc">📑</span> {title}</h2>
     {renderItems(items)}
   </section>
 )

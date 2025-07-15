@@ -21,7 +21,7 @@ export default function GameplayGuide({ intro, steps, videoUrls }: GameplayGuide
   return (
     <div className="space-y-8">
       <div className="text-center">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4"><span role="img" aria-label="howto">🎯</span> {intro?.title || "How to Play"}</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-blue-400"><span role="img" aria-label="howto">🎯</span> {intro?.title || "How to Play"}</h2>
         <p className="text-gray-600 dark:text-gray-400 max-w-8xl mx-auto">
           {intro?.content}
         </p>
@@ -37,7 +37,7 @@ export default function GameplayGuide({ intro, steps, videoUrls }: GameplayGuide
             <div className="absolute -top-4 -left-4 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white font-semibold border-2 border-gray-900">
               {index + 1}
             </div>
-            <h3 className="text-lg font-semibold mb-3 text-white mt-2">
+            <h3 className="text-lg font-semibold mb-3 text-purple-400 mt-2">
               {step.title}
             </h3>
             <p className="text-gray-400">

@@ -110,10 +110,9 @@ export default function Home({ defaultGame, onGameSelect }: HomeProps) {
                       "bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-2xl p-6 mt-8 w-full mx-auto shadow-xl border border-gray-700/50",
                       isMobile && "p-4"
                     )}>
-                      <h2 className={cn(
-                        "text-2xl font-bold mb-4 text-white",
-                        isMobile && "text-xl"
-                      )}><span role="img" aria-label="info" className="align-middle">📖</span> {selectedGame.info.title}</h2>
+                      <h2 className="text-2xl font-bold mb-4 drop-shadow-lg">
+                        <span role="img" aria-label="info" className="align-middle">📖</span> <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600">{selectedGame.info.title}</span>
+                      </h2>
                       <p className="text-gray-300 leading-relaxed">
                         {selectedGame.info.content}
                       </p>
