@@ -4,45 +4,6 @@
     <loc>https://www.stealabrainrotscript.online</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://www.screwout.com/screw-out</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/steal-a-brainrot</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/cheese-chompers-3d</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/merge-rot</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/worldguessr</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/ethnoguessr</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/scrandle</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/wacky-flip</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/merge-fellas</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.screwout.com/brainrotclicker</loc>
-    <priority>0.7</priority>
-  </url>
+  
   <!-- 继续为所有游戏 slug 生成 <url>，优先级可根据实际需求调整 -->
 </urlset> 
