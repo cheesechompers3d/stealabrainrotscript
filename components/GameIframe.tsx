@@ -44,11 +44,11 @@ export default function GameIframe({ game, onGameSelect, isDarkMode, isMobile }:
     if (isBrowserFullscreen) {
       body.style.overflow = 'hidden';
       gameFrame?.classList.add('fixed', 'inset-0', 'z-50', 'w-screen', 'h-screen');
-      gameFrame?.classList.remove('relative', 'aspect-video', 'overflow-hidden', 'bg-gray-900');
+      gameFrame?.classList.remove('relative', 'overflow-hidden', 'bg-gray-900');
     } else {
       body.style.overflow = '';
       gameFrame?.classList.remove('fixed', 'inset-0', 'z-50', 'w-screen', 'h-screen');
-      gameFrame?.classList.add('relative', 'aspect-video', 'overflow-hidden', 'bg-gray-900');
+      gameFrame?.classList.add('relative',  'overflow-hidden', 'bg-gray-900');
     }
   }, [isBrowserFullscreen]);
 
